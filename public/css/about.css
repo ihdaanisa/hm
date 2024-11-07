@@ -1,0 +1,172 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.btn {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    background-color: #32CD32;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.nav-link {
+    font-weight: 600;
+    padding: 15px;
+}
+
+.btn-custom {
+    background-color: white;
+    color: #32CD32;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-section .btn-custom {
+    background-color: #32CD32;
+    color: white;
+    border: none;
+}
+
+.hero-section .btn-custom:hover {
+    background-color: #28a745;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay hitam untuk teks lebih jelas */
+    z-index: 1;
+}
+
+/* Gaya tambahan untuk bagian "Mengapa Leuwimalang" */
+.why-leuwimalang-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+.why-leuwimalang-section h2 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.why-leuwimalang-section h3 {
+    color: black;
+    font-weight: bold;
+}
+.why-leuwimalang-section .feature-card {
+    background-color: white;
+    border: none;
+    padding: 20px;
+    text-align: left;
+}
+.why-leuwimalang-section .feature-card h5 {
+    color: black;
+    font-weight: bold;
+
+}
+.why-leuwimalang-section .feature-card i {
+    color: #32CD32;
+    font-size: 2rem;
+}
+.why-section, .offer-section, .join-section {
+    padding: 60px 0;
+}
+.why-section h2, .offer-section h2, .join-section h2 {
+    color: black;
+    font-weight: bold;
+}
+.join-section {
+    background-color: #f5f5f5;
+}
+.join-us-section h2 {
+    color: black;
+    font-weight: bold;
+}
+
+.join-us-section p {
+    color: #333;
+}
+
+.join-us-section .btn-success {
+    background-color: #32CD32;
+    border: none;
+    padding: 10px 20px;
+}
+
+.join-us-section .btn-success:hover {
+    background-color: #28a745;
+}
+.footer {
+    background-color: #00b140;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+/* Media Queries untuk Responsif */
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center; /* Teks di tengah untuk tampilan kecil */
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem; /* Ukuran font lebih kecil di ponsel */
+        margin-bottom: 10px; /* Mengurangi margin */
+    }
+
+    .hero-section p {
+        font-size: 1rem; /* Ukuran font lebih kecil di ponsel */
+        max-width: 100%; /* Memastikan teks tidak terlalu lebar */
+        margin: 0 auto; /* Mengatur margin otomatis */
+    }
+
+    .hero-section .btn-custom {
+        width: 100%; /* Tombol menjadi lebar 100% di ponsel */
+        padding: 15px; /* Memperbesar padding tombol */
+    }
+}

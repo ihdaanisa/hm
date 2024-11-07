@@ -1,0 +1,152 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3a8a;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+/* Reports Section */
+.reports-section {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.reports-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #1e3a8a;
+}
+
+/* Filters */
+.report-filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.search-bar, .filter-status {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 48%;
+}
+
+.search-bar {
+    width: 70%;
+}
+
+.filter-status {
+    width: 28%;
+}
+
+/* Table Styling */
+.reports-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+.reports-table th, .reports-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.reports-table th {
+    background-color: #1e3a8a;
+    color: #fff;
+}
+
+.reports-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.reports-table tbody tr:hover {
+    background-color: #f1f7ff;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.status.open {
+    background-color: #28a745;
+}
+
+.status.in-progress {
+    background-color: #ffc107;
+}
+
+.status.closed {
+    background-color: #dc3545;
+}
+
+/* Action Buttons */
+.action-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+    margin-right: 5px;
+}
+
+.action-btn.view {
+    background-color: #1e3a8a;
+    color: #fff;
+}
+
+.action-btn.edit {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.action-btn.delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.action-btn:hover {
+    opacity: 0.8;
+}
+

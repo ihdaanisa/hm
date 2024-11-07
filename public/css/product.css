@@ -1,0 +1,129 @@
+/* Product Card Hover Effect */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+    transform: scale(1.1);
+}
+.product-card h2 {
+    color: black;
+    font-weight: bold;
+
+}
+
+.why-section, .offer-section, .join-section {
+    padding: 60px 0;
+}
+.why-section h2, .offer-section h2, .join-section h2 {
+    color: black;
+    font-weight: bold;
+}
+.offer-section .card {
+    border: 2px solid #32CD32;
+}
+.offer-section .card-body h5 {
+    color: black;
+    font-weight: bold;
+}
+.join-section {
+    background-color: #f5f5f5;
+}
+/* Gaya tambahan untuk bagian "Mengapa Leuwimalang" */
+.why-leuwimalang-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+.why-leuwimalang-section h2 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.why-leuwimalang-section .feature-card {
+    background-color: white;
+    border: none;
+    padding: 20px;
+    text-align: left;
+}
+.why-leuwimalang-section .feature-card h5 {
+    color: black;
+    font-weight: bold;
+
+}
+.why-leuwimalang-section .feature-card i {
+    color: #32CD32;
+    font-size: 2rem;
+}
+.join-us-section {
+    background-color: #f9f9f9;
+}
+
+.join-us-section h2 {
+    color: black;
+    font-weight: bold;
+}
+
+.join-us-section p {
+    color: #333;
+}
+
+.join-us-section .btn-success {
+    background-color: #32CD32;
+    border: none;
+    padding: 10px 20px;
+}
+
+.join-us-section .btn-success:hover {
+    background-color: #28a745;
+}
+.footer {
+    background-color: #00b140;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries untuk Responsif */
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center; /* Teks di tengah untuk tampilan kecil */
+    }
+
+    .hero-section h1 {
+        font-size: 2rem; /* Ukuran font lebih kecil di ponsel */
+        margin-bottom: 10px; /* Mengurangi margin */
+    }
+
+    .hero-section p {
+        font-size: 14px; /* Ukuran font lebih kecil di ponsel */
+        max-width: 100%; /* Memastikan teks tidak terlalu lebar */
+        margin: 0 auto; /* Mengatur margin otomatis */
+    }
+
+    .hero-section .btn-custom {
+        width: 30%; /* Tombol menjadi lebar 100% di ponsel */
+        padding: 2px; /* Memperbesar padding tombol */
+    }
+}
