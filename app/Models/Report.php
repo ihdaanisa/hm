@@ -13,7 +13,7 @@ class Report extends Model
 
     protected $fillable = [
         'user_id', 'classification', 'title', 'category', 'content', 
-        'event_date', 'location', 'institution', 'attachment'
+        'event_date', 'location', 'institution', 'attachment_path'
     ];
 
     public function user()
